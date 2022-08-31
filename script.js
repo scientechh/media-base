@@ -58,15 +58,6 @@ function Aside(){
         </div>
     `;
 
-    document.querySelector(".link-copy").onclick = function(){
-        navigator.clipboard.writeText(window.location.href);
-
-        document.querySelector('.copied').classList.add('copy--active');
-
-        setTimeout(() => {
-            document.querySelector('.copied').classList.remove('copy--active');
-        }, 2000);
-    }
 
     document.querySelector('.prod').innerHTML = `
         <div class="thecodefather products--item">
@@ -89,6 +80,15 @@ function Aside(){
 
 Aside()
 
+    document.querySelector(".link-copy").onclick = function(){
+        navigator.clipboard.writeText(window.location.href);
+
+        document.querySelector('.copied').classList.add('copy--active');
+
+        setTimeout(() => {
+            document.querySelector('.copied').classList.remove('copy--active');
+        }, 2000);
+    }
 
 function Footer(){
     document.querySelector('.footer').innerHTML = `
