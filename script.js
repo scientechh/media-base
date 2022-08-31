@@ -34,7 +34,7 @@ function myFunction(MenuMedia) {
 
     }else{
         document.querySelector('#first-menu').innerHTML = `
-            <li><a href="index.php">Գլխավոր</a></li>
+            <li><a href="../index.php">Գլխավոր</a></li>
             <li><a href="../index.php#blog">Բլոգ</a></li>
             <li><a href="../index.php#products">Պրոդուկներ</a></li>
             <li><a href="../index.php#contact">Կապ</a></li>
