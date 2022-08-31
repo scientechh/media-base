@@ -14,10 +14,10 @@ function myFunction(MenuMedia) {
 
         document.querySelector('#mob-menu').innerHTML = `
                 <ul>
-                    <li><a href="index.html">Գլխավոր</a></li>
-                    <li><a href="../index.html#blog">Բլոգ</a></li>
-                    <li><a href="../index.html#products">Պրոդուկներ</a></li>
-                    <li><a href="../index.html#contact">Կապ</a></li>
+                    <li><a href="index.php">Գլխավոր</a></li>
+                    <li><a href="../index.php#blog">Բլոգ</a></li>
+                    <li><a href="../index.php#products">Պրոդուկներ</a></li>
+                    <li><a href="../index.php#contact">Կապ</a></li>
                     <li class="mob-menu-closser"><span></span><span></span></li>
                 </ul>
         `;
@@ -34,10 +34,10 @@ function myFunction(MenuMedia) {
 
     }else{
         document.querySelector('#first-menu').innerHTML = `
-            <li><a href="index.html">Գլխավոր</a></li>
-            <li><a href="../index.html#blog">Բլոգ</a></li>
-            <li><a href="../index.html#products">Պրոդուկներ</a></li>
-            <li><a href="../index.html#contact">Կապ</a></li>
+            <li><a href="index.php">Գլխավոր</a></li>
+            <li><a href="../index.php#blog">Բլոգ</a></li>
+            <li><a href="../index.php#products">Պրոդուկներ</a></li>
+            <li><a href="../index.php#contact">Կապ</a></li>
         `
 
         document.querySelector('#mob-menu').innerHTML = null;
