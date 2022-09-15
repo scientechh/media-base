@@ -14,7 +14,7 @@ function myFunction(MenuMedia) {
 
         document.querySelector('#mob-menu').innerHTML = `
                 <ul>
-                    <li><a href="index.php">Գլխավոր</a></li>
+                    <li><a href="../index.php">Գլխավոր</a></li>
                     <li><a href="../index.php#blog">Բլոգ</a></li>
                     <li><a href="../index.php#products">Պրոդուկներ</a></li>
                     <li><a href="../index.php#contact">Կապ</a></li>
@@ -97,7 +97,7 @@ function Footer(){
 
             <div class="footer__lists">
                 <ul>
-                    <li><a href="index.html">Գլխավոր</a></li>
+                    <li><a href="../index.html">Գլխավոր</a></li>
                     <li><a href="../index.html#blog">Բլոգ</a></li>
                     <li><a href="../index.html#products">Պրոդուկներ</a></li>
                     <li><a href="../index.html#contact">Կապ</a></li>
