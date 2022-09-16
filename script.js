@@ -113,4 +113,13 @@ function Footer(){
     `
 };
 
-Footer()
+Footer();
+
+function loader(){
+   setTimeout(() => {
+       document.querySelector('.loader').classList.add('loader--close')
+   }, 1600);
+}
+
+loader()
+
